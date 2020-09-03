@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+
+<div class="timer">
+
+
+<input type="number"  id="hours"   name="hours" value=""  placeholder="H" maxlength="2"  min="0" max="24" >   :
+<input type="number" id="minutes" name="minutes" value="" placeholder="M"maxlength="2"  min="0" max="60">  :
+<input type="number"  id ="seconds" name="seconds" value="" placeholder="S"maxlength="2"  min="0" max="60">
+
+<br><br>
+<button id="submitTime"  onclick="timer()">submit</button>
+
+
+ <p id="blah"></p>
+
+
+    </body>
+
+
+    <div class="DisplayCountdown"   >
+
+
+
+    </div>
+
+  </div>
+    <script src="https://unpkg.com/@reactivex/rxjs@5.3.0/dist/global/Rx.js"></script>
+    <script src="lecture-6-rxjs.js"></script>
+
+
+
+</html>
